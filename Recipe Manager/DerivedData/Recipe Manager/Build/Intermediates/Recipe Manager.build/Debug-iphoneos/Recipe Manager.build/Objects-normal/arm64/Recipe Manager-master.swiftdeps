@@ -1,0 +1,13 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "0d2d8bfa130727c1740e33bd60942793"
+inputs: 
+- "/Users/markmcgookin/XCode/Recipe Manager/Recipe Manager/Recipe Manager/ViewController.swift"
+- "/Users/markmcgookin/XCode/Recipe Manager/Recipe Manager/Recipe Manager/iCloudManager.swift"
+- "/Users/markmcgookin/XCode/Recipe Manager/Recipe Manager/Recipe Manager/NSUserDefaultsManager.swift"
+- "/Users/markmcgookin/XCode/Recipe Manager/Recipe Manager/Recipe Manager/CustomTableViewCell.swift"
+- "/Users/markmcgookin/XCode/Recipe Manager/Recipe Manager/Recipe Manager/AppDelegate.swift"
+- "/Users/markmcgookin/XCode/Recipe Manager/Recipe Manager/Recipe Manager/Recipe.swift"
+- "/Users/markmcgookin/XCode/Recipe Manager/Recipe Manager/Recipe Manager/RecipeManager.swift"
+- "/Users/markmcgookin/XCode/Recipe Manager/Recipe Manager/Recipe Manager/AddViewController.swift"
+- "/Users/markmcgookin/XCode/Recipe Manager/Recipe Manager/Recipe Manager/Reachibility.swift"
+- "/Users/markmcgookin/XCode/Recipe Manager/Recipe Manager/Recipe Manager/DetailViewController.swift"

@@ -1,0 +1,4 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "e51f38d11bfbc8e6f1d6a04f633ba174"
+inputs: 
+- "/Users/markmcgookin/XCode/Recipe Manager/Recipe Manager/Recipe ManagerTests/Recipe_ManagerTests.swift"

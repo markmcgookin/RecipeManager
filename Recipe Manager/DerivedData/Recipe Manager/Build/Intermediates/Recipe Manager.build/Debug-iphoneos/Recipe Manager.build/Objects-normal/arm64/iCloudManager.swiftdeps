@@ -1,0 +1,38 @@
+### Swift dependencies file v0 ###
+provides:
+- "iCloudManager"
+nominals:
+- "C7Recipes13iCloudManager"
+class-members:
+- "getFromCloud"
+- "sendToCloud"
+top-level:
+- !private "NSKeyedUnarchiver"
+- !private "StringLiteralType"
+- !private "Recipe"
+- !private "NSData"
+- "NSObject"
+- !private "RecipeManager"
+- !private "NSKeyedArchiver"
+- !private "NSUbiquitousKeyValueStore"
+member-access:
+- !private "C7Recipes13iCloudManager"
+- !private "CSo17NSKeyedUnarchiver"
+- "PSs9AnyObject"
+- !private "C7Recipes13RecipeManager"
+- "CSo8NSObject"
+- !private "CSo7NSCoder"
+- !private "CSo25NSUbiquitousKeyValueStore"
+- !private "Sa"
+- !private "CSo15NSKeyedArchiver"
+dynamic-lookup:
+cross-module:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Security.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/CoreImage.swiftmodule"

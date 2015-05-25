@@ -1,0 +1,41 @@
+### Swift dependencies file v0 ###
+provides:
+- "AppDelegate"
+nominals:
+- "C7Recipes11AppDelegate"
+class-members:
+- "applicationWillResignActive"
+- "application"
+- "applicationDidEnterBackground"
+- "applicationWillEnterForeground"
+- "window"
+- "applicationWillTerminate"
+- "applicationDidBecomeActive"
+top-level:
+- "NSObject"
+- "UIWindow"
+- "UIApplication"
+- !private "NSUserDefaultsManager"
+- "Bool"
+- !private "BooleanLiteralType"
+- "AnyObject"
+- "UIResponder"
+- "UIApplicationDelegate"
+member-access:
+- "C7Recipes11AppDelegate"
+- !private "C7Recipes21NSUserDefaultsManager"
+- "CSo8NSObject"
+- "PSs9AnyObject"
+- "CSo11UIResponder"
+- "PSo21UIApplicationDelegate"
+dynamic-lookup:
+cross-module:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Security.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/CoreImage.swiftmodule"

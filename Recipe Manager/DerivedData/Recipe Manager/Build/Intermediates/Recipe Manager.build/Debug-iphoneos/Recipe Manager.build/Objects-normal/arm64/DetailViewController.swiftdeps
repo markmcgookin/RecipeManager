@@ -1,0 +1,40 @@
+### Swift dependencies file v0 ###
+provides:
+- "DetailViewController"
+nominals:
+- "C7Recipes20DetailViewController"
+class-members:
+- "recipeContentText"
+- "viewDidAppear"
+- "didReceiveMemoryWarning"
+- "PreRecipe"
+- "viewDidLoad"
+top-level:
+- "UIViewController"
+- "Recipe"
+- !private "UIColor"
+- "Bool"
+- "UITextView"
+member-access:
+- "CSo16UIViewController"
+- "CSo8NSObject"
+- !private "CSo12UIScrollView"
+- "CSo11UIResponder"
+- "C7Recipes20DetailViewController"
+- "PSs9AnyObject"
+- !private "CSo7UIColor"
+- !private "CSo10UITextView"
+- !private "V12CoreGraphics7CGFloat"
+- !private "C7Recipes6Recipe"
+- !private "CSo6UIView"
+dynamic-lookup:
+cross-module:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Security.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/CoreImage.swiftmodule"
