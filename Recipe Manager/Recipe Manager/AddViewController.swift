@@ -95,7 +95,12 @@ class AddViewController: UIViewController, UIDocumentPickerDelegate {
         if(controller.documentPickerMode == UIDocumentPickerMode.Import)
         {
             var content = openFile(url.path!, utf8:NSUTF8StringEncoding)
-            recipeContentText.text = content
+            
+            if(content != nil)
+            {
+                recipeContentText.text = content
+                handleDoneButtonState()
+            }
         }
     }
     
