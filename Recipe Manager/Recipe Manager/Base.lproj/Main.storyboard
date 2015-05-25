@@ -9,13 +9,13 @@
         <!--Recipes-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Recipies" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Recipes" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="I7E-WN-v7n">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.50980392159999999" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="customCell" id="iyf-aC-EPa" customClass="CustomTableViewCell" customModule="Recipies" customModuleProvider="target">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="customCell" id="iyf-aC-EPa" customClass="CustomTableViewCell" customModule="Recipes" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iyf-aC-EPa" id="FE2-qZ-7lw">
@@ -48,7 +48,7 @@
         <!--AddView-->
         <scene sceneID="7p3-33-cRj">
             <objects>
-                <viewController title="AddView" id="sjD-wv-6G8" customClass="AddViewController" customModule="Recipies" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="AddView" id="sjD-wv-6G8" customClass="AddViewController" customModule="Recipes" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="myq-KP-2mN"/>
                         <viewControllerLayoutGuide type="bottom" id="ltC-05-RwD"/>
@@ -84,7 +84,11 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EzA-eV-bGF">
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <items>
-                                    <barButtonItem title="iCloud " id="Q12-aj-ese"/>
+                                    <barButtonItem title="iCloud " id="Q12-aj-ese">
+                                        <connections>
+                                            <action selector="iCloudDocsClick:" destination="sjD-wv-6G8" id="1UD-4p-v3y"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="qI4-sR-U7o"/>
                                     <barButtonItem title="Add" style="plain" id="Scn-H1-ysu">
                                         <connections>
@@ -155,7 +159,7 @@
         <!--DetailView-->
         <scene sceneID="ChJ-Wu-VD4">
             <objects>
-                <viewController title="DetailView" id="Z8Y-60-Xxx" customClass="DetailViewController" customModule="Recipies" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="DetailView" id="Z8Y-60-Xxx" customClass="DetailViewController" customModule="Recipes" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fYa-0o-iET"/>
                         <viewControllerLayoutGuide type="bottom" id="XFF-UW-wkV"/>

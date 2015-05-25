@@ -4,26 +4,26 @@ provides:
 nominals:
 - "C7Recipes13iCloudManager"
 class-members:
-- "sendToCloud"
 - "getFromCloud"
+- "sendToCloud"
 top-level:
+- !private "NSUbiquitousKeyValueStore"
 - !private "NSData"
 - !private "Recipe"
-- "NSObject"
-- !private "NSKeyedUnarchiver"
 - !private "RecipeManager"
+- "NSObject"
 - !private "StringLiteralType"
 - !private "NSKeyedArchiver"
-- !private "NSUbiquitousKeyValueStore"
+- !private "NSKeyedUnarchiver"
 member-access:
-- !private "CSo17NSKeyedUnarchiver"
-- !private "C7Recipes13RecipeManager"
-- "CSo8NSObject"
-- !private "CSo7NSCoder"
-- !private "CSo25NSUbiquitousKeyValueStore"
-- "PSs9AnyObject"
 - !private "Sa"
+- !private "C7Recipes13RecipeManager"
+- "PSs9AnyObject"
 - !private "CSo15NSKeyedArchiver"
+- "CSo8NSObject"
+- !private "CSo25NSUbiquitousKeyValueStore"
+- !private "CSo7NSCoder"
+- !private "CSo17NSKeyedUnarchiver"
 - !private "C7Recipes13iCloudManager"
 dynamic-lookup:
 cross-module:

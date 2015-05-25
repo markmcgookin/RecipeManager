@@ -4,24 +4,24 @@ provides:
 nominals:
 - "C7Recipes13RecipeManager"
 class-members:
-- "AddRecipe"
 - "Recipes"
-- "DeleteRecipe"
 - "GetRecipe"
+- "DeleteRecipe"
+- "AddRecipe"
 top-level:
-- "Int"
-- "String"
-- "NSObject"
-- !private ">="
 - "Recipe"
 - !private "+"
+- !private ">="
+- "NSObject"
+- "String"
+- "Int"
 member-access:
-- !private "C7Recipes6Recipe"
+- "CSo8NSObject"
 - "Sa"
 - "PSs9AnyObject"
-- !private "Sb"
-- "CSo8NSObject"
+- !private "C7Recipes6Recipe"
 - "C7Recipes13RecipeManager"
+- !private "Sb"
 dynamic-lookup:
 cross-module:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/Swift.swiftmodule"

@@ -4,22 +4,22 @@ provides:
 nominals:
 - "C7Recipes6Recipe"
 class-members:
-- "encodeWithCoder"
-- "Content"
 - "Title"
+- "Content"
+- "encodeWithCoder"
 top-level:
-- "NSCoder"
-- "NSCoding"
-- "NSObject"
-- !private "StringLiteralType"
 - "String"
+- "NSObject"
+- "NSCoder"
+- !private "StringLiteralType"
+- "NSCoding"
 member-access:
-- "C7Recipes6Recipe"
-- !private "SS"
 - "PSo8NSCoding"
-- "CSo8NSObject"
-- "PSs9AnyObject"
+- !private "SS"
 - !private "CSo7NSCoder"
+- "CSo8NSObject"
+- "C7Recipes6Recipe"
+- "PSs9AnyObject"
 dynamic-lookup:
 cross-module:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/32/Swift.swiftmodule"

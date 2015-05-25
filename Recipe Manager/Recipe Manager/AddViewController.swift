@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AddViewController: UIViewController {
+class AddViewController: UIViewController, UIDocumentPickerDelegate {
 
     @IBOutlet weak var recipeContentText: UITextView!
     @IBOutlet weak var titleText: UITextField!
@@ -82,14 +82,27 @@ class AddViewController: UIViewController {
     }
     
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func iCloudDocsClick(sender: AnyObject) {
+        var documentPicker: UIDocumentPickerViewController = UIDocumentPickerViewController(documentTypes: ["public.text"], inMode: UIDocumentPickerMode.Import)
+        
+        documentPicker.delegate = self
+        documentPicker.modalPresentationStyle = UIModalPresentationStyle.FullScreen
+        self.presentViewController(documentPicker, animated: true, completion: nil)
     }
-    */
-
+    
+    func documentPicker(controller: UIDocumentPickerViewController, didPickDocumentAtURL url: NSURL) {
+        
+        if(controller.documentPickerMode == UIDocumentPickerMode.Import)
+        {
+            var content = openFile(url.path!, utf8:NSUTF8StringEncoding)
+            recipeContentText.text = content
+        }
+    }
+    
+    func openFile(path: String, utf8: NSStringEncoding = NSUTF8StringEncoding) -> String?
+    {
+        var error: NSError?
+        return NSFileManager().fileExistsAtPath(path) ? String(contentsOfFile: path as String, encoding: utf8, error: &error)! : nil
+    }
+    
 }

@@ -4,21 +4,21 @@ provides:
 nominals:
 - "C19Recipe_ManagerTests19Recipe_ManagerTests"
 class-members:
-- "tearDown"
 - "testExample"
 - "testPerformanceExample"
 - "setUp"
+- "tearDown"
 top-level:
-- "XCTestCase"
 - !private "BooleanLiteralType"
-- !private "XCTAssert"
+- "XCTestCase"
 - !private "StringLiteralType"
+- !private "XCTAssert"
 member-access:
-- "CSo10XCTestCase"
-- "CSo6XCTest"
-- !private "C19Recipe_ManagerTests19Recipe_ManagerTests"
 - "CSo8NSObject"
 - "PSs9AnyObject"
+- "CSo6XCTest"
+- "CSo10XCTestCase"
+- !private "C19Recipe_ManagerTests19Recipe_ManagerTests"
 dynamic-lookup:
 cross-module:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/Swift.swiftmodule"

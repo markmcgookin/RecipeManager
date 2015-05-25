@@ -84,12 +84,14 @@ typedef struct _NSZone NSZone;
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
-@import ObjectiveC;
 @import Foundation;
+@import ObjectiveC;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
+@class UIDocumentPickerViewController;
+@class NSURL;
 @class UITextView;
 @class UITextField;
 @class UIBarButtonItem;
@@ -98,7 +100,7 @@ typedef struct _NSZone NSZone;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC7Recipes17AddViewController")
-@interface AddViewController : UIViewController
+@interface AddViewController : UIViewController <UIDocumentPickerDelegate>
 @property (nonatomic, weak) IBOutlet UITextView * __null_unspecified recipeContentText;
 @property (nonatomic, weak) IBOutlet UITextField * __null_unspecified titleText;
 @property (nonatomic, weak) IBOutlet UIBarButtonItem * __null_unspecified doneButton;
@@ -112,6 +114,9 @@ SWIFT_CLASS("_TtC7Recipes17AddViewController")
 - (void)textTitleDidChange;
 - (void)recipeContentDidChange;
 - (IBAction)addButtonClick:(id __nonnull)sender;
+- (IBAction)iCloudDocsClick:(id __nonnull)sender;
+- (void)documentPicker:(UIDocumentPickerViewController * __nonnull)controller didPickDocumentAtURL:(NSURL * __nonnull)url;
+- (NSString * __nullable)openFile:(NSString * __nonnull)path utf8:(NSUInteger)utf8;
 - (SWIFT_NULLABILITY(nonnull) instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (SWIFT_NULLABILITY(nonnull) instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

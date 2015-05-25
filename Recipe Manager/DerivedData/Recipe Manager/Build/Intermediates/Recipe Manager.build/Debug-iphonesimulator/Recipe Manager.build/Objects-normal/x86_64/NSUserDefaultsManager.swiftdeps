@@ -4,27 +4,27 @@ provides:
 nominals:
 - "C7Recipes21NSUserDefaultsManager"
 class-members:
+- "userDefaults"
 - "initializeDefaults"
 - "Synchronise"
-- "userDefaults"
 top-level:
-- !private "NSKeyedUnarchiver"
 - "NSUserDefaults"
-- !private "Recipe"
-- !private "StringLiteralType"
-- "NSObject"
 - !private "RecipeManager"
+- !private "Recipe"
 - !private "NSKeyedArchiver"
+- !private "StringLiteralType"
+- !private "NSKeyedUnarchiver"
+- "NSObject"
 member-access:
+- "CSo8NSObject"
+- "PSs9AnyObject"
+- "C7Recipes21NSUserDefaultsManager"
+- !private "CSo17NSKeyedUnarchiver"
 - "CSo14NSUserDefaults"
 - !private "Sa"
-- "PSs9AnyObject"
-- !private "CSo15NSKeyedArchiver"
-- "C7Recipes21NSUserDefaultsManager"
 - !private "CSo7NSCoder"
+- !private "CSo15NSKeyedArchiver"
 - !private "C7Recipes13RecipeManager"
-- "CSo8NSObject"
-- !private "CSo17NSKeyedUnarchiver"
 dynamic-lookup:
 cross-module:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/Swift.swiftmodule"

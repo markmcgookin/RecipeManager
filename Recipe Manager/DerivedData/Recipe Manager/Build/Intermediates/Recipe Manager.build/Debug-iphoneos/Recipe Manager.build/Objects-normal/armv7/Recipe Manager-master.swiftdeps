@@ -1,5 +1,5 @@
 version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
-options: "37445135276db6fe1a1125d0be2b20e1"
+options: "a63199ea4b17295cbcac81b75ab1cd08"
 inputs: 
 - "/Users/markmcgookin/XCode/Recipe Manager/Recipe Manager/Recipe Manager/ViewController.swift"
 - "/Users/markmcgookin/XCode/Recipe Manager/Recipe Manager/Recipe Manager/iCloudManager.swift"
@@ -9,4 +9,5 @@ inputs:
 - "/Users/markmcgookin/XCode/Recipe Manager/Recipe Manager/Recipe Manager/Recipe.swift"
 - "/Users/markmcgookin/XCode/Recipe Manager/Recipe Manager/Recipe Manager/RecipeManager.swift"
 - "/Users/markmcgookin/XCode/Recipe Manager/Recipe Manager/Recipe Manager/AddViewController.swift"
+- "/Users/markmcgookin/XCode/Recipe Manager/Recipe Manager/Recipe Manager/Reachibility.swift"
 - "/Users/markmcgookin/XCode/Recipe Manager/Recipe Manager/Recipe Manager/DetailViewController.swift"

@@ -5,23 +5,23 @@ nominals:
 - "C7Recipes13RecipeManager"
 class-members:
 - "Recipes"
+- "DeleteRecipe"
 - "AddRecipe"
 - "GetRecipe"
-- "DeleteRecipe"
 top-level:
+- "Int"
 - "String"
-- "Recipe"
 - !private "+"
 - "NSObject"
-- "Int"
 - !private ">="
+- "Recipe"
 member-access:
-- !private "Sb"
 - "C7Recipes13RecipeManager"
-- !private "C7Recipes6Recipe"
-- "PSs9AnyObject"
+- !private "Sb"
 - "CSo8NSObject"
 - "Sa"
+- "PSs9AnyObject"
+- !private "C7Recipes6Recipe"
 dynamic-lookup:
 cross-module:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/32/Swift.swiftmodule"
